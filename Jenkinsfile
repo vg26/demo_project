@@ -16,6 +16,6 @@ pipeline {
               sh "codeceptjs run ./tests/logintest.js "
             }
         }
-     
+    }
         
     }
