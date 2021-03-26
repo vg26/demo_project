@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614947908826' stop='1614947920406'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1614947908828' status='passed' stop='1614947913338'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1614947910215' status='passed' stop='1614947912748'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947912749' status='passed' stop='1614947912888'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947912888' status='passed' stop='1614947913047'>
+                    <name>I fill field "UserName", "vladgul1"</name>
+                    <title>I fill field "UserName", "vladgul1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947913047' status='passed' stop='1614947913191'>
+                    <name>I fill field "Password", "Vladgul1!"</name>
+                    <title>I fill field "Password", "Vladgul1!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947913191' status='passed' stop='1614947913260'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947913261' status='passed' stop='1614947913338'>
+                    <name>I see "Profile"</name>
+                    <title>I see "Profile"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1614947913451' status='passed' stop='1614947920257'>
+            <name>login with invalid credentials</name>
+            <title>login with invalid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1614947915374' status='passed' stop='1614947919438'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947919438' status='passed' stop='1614947919575'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947919575' status='passed' stop='1614947919719'>
+                    <name>I fill field "UserName", "vladgul"</name>
+                    <title>I fill field "UserName", "vladgul"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947919719' status='passed' stop='1614947919867'>
+                    <name>I fill field "Password", "Vladgul1!"</name>
+                    <title>I fill field "Password", "Vladgul1!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947919867' status='passed' stop='1614947919939'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1614947919939' status='passed' stop='1614947920257'>
+                    <name>I see "Invalid username or password!"</name>
+                    <title>I see "Invalid username or password!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
