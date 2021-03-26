@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                
-              docker-compose -f docker-compose.yaml -p selenium up
+              sh "docker-compose -f docker-compose.yaml -p selenium up"
             }
         }
     
@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 
-              codeceptjs run ./tests/logintest.js 
+              sh "codeceptjs run ./tests/logintest.js"
             }
         }
     }
