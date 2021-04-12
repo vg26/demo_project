@@ -7,10 +7,15 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: echo "CodeceptJS demo project"
+  
 
-- script: |
-    bat npx selenium-standalone start
-    bat npx codeceptjs run --steps
+
     
+- task: NodeTool@0
+  inputs:
+    versionSpec: '12.x'
+  displayName: 'Install Node.js'
+
+
+- script: npx codeceptjs run --steps
